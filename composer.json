@@ -1,0 +1,24 @@
+{
+	"name": "tippingcanoe/larawoosh",
+	"description": "A Pushwoosh library for Laravel 4.",
+	"authors": [
+		{
+			"name": "Alexander Trauzzi",
+			"email": "a.trauzzi@tippingcanoe.com"
+		}
+	],
+	"require": {
+		"laravel/framework": "4.*",
+		"tippingcanoe/pushwoosh": "dev-master",
+        "tippingcanoe/laravel-mobile-devices": "dev-master"
+	},
+	"autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+		"psr-0": {
+			"TippingCanoe\\Larawoosh": "src/"
+		}
+	},
+	"minimum-stability": "dev"
+}
